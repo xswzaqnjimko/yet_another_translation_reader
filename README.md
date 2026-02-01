@@ -1,4 +1,4 @@
-# Aligning Text (yet_another_translation_reader)
+# Aligning Text
 
 A Chrome extension for reading original and translated texts side-by-side with synchronized scrolling and manual alignment correction. 
 Currently (v1.0) only targeting archiveofourown.org work pages.

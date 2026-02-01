@@ -1,6 +1,7 @@
 # Aligning Text
 
-A Chrome extension for reading original and translated texts side-by-side with synchronized scrolling and manual alignment correction. Still testing. 
+A Chrome extension for reading original and translated texts side-by-side with synchronized scrolling and manual alignment correction.
+V1.0 for AO3 only. Still testing.
 
 ## Features (v1.0, 2026/01/31)
 
@@ -51,7 +52,7 @@ Anchors divide the text into segments, and proportional mapping is computed with
 - [ ] Minor mismatch sometimes, currently needs re-anchor...
 - [ ] Sometimes, especially with long paragraphs, shows truncated paragraphs...UI/UX improvement needed
 - [ ] i18n for UI
-- [ ] Currently only tested on AO3...
+- [ ] Additional website support
 - [ ] PDF/txt input support
 - [ ] Etc. ...
 

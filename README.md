@@ -2,7 +2,7 @@
 
 A Chrome extension for reading original and translated texts side-by-side with synchronized scrolling and manual alignment correction. Still testing. 
 
-## Features (v1.0)
+## Features (v1.0, 2026/01/31)
 
 - **Two-panel viewer**: Read texts A and B side by side
 - **Layout toggle**: Switch between Left/Right and Top/Bottom layouts
@@ -31,7 +31,7 @@ A Chrome extension for reading original and translated texts side-by-side with s
 1. Click the extension icon in Chrome toolbar → opens setup page in a new tab
 2. Paste a URL for Text A (e.g., original)
 3. Paste another URL for Text B (e.g., translation)
-   - To-be-tested probably-not-working-yet...: Use the "Current Tab" buttons to grab URLs from open AO3 tabs...to be tested & debugged...
+   - To-be-tested probably-not-working-yet...: Use the "Current Tab" buttons to grab URLs from open tabs...to be tested & debugged...
 4. Click "Open Aligning Text"
 5. Read and enjoy!
 
@@ -45,34 +45,13 @@ When paragraphs don't line up correctly (e.g., translator merged/split paragraph
 
 Anchors divide the text into segments, and proportional mapping is computed within each segment.
 
-## Changelog
-
-Current: 2026/01/31
-
-### v1.0
-- Added manual anchor system for alignment correction
-- Added anchor sidebar (view, jump to, delete anchors)
-- Fixed: "Chapter Text" and other AO3 landmark headings no longer appear as paragraphs
-- Fixed: Multi-chapter works now correctly extract chapter content (not notes/summary)
-
-### v0.1.1
-- Setup page now opens as a full tab (doesn't close when switching tabs)
-- Added "Current Tab" buttons to grab URLs from open AO3 tabs
-- URLs are saved and persist between sessions
-
-### v0.1.0
-- Initial release
-- Two-panel viewer with layout toggle and swap
-- Proportional scroll sync
-- Active paragraph highlighting
-
 ## Roadmap / To-Do
 
 - [ ] "Current Tab" not quite working
 - [ ] Minor mismatch sometimes, currently needs re-anchor...
 - [ ] Sometimes, especially with long paragraphs, shows truncated paragraphs...UI/UX improvement needed
 - [ ] i18n for UI
-- [ ] As said above, currently only tested on AO3 yet...
+- [ ] Currently only tested on AO3...
 - [ ] PDF/txt input support
 - [ ] Etc. ...
 
@@ -111,4 +90,4 @@ MIT
 
 ## Acknowledgement
 
-Thanks AO3, thanks my friend(s), thanks GPT 5.2 Thinking & Claude Opus 4.5
+Thanks AO3 and thanks authors, thanks my friend(s), thanks GPT 5.2 Thinking & Claude Opus 4.5

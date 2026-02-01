@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Aligning Text",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Read original and translated texts side-by-side with synchronized scrolling",
   "permissions": ["storage", "tabs"],
   "host_permissions": [

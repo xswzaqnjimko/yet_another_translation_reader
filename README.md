@@ -1,6 +1,7 @@
 # Aligning Text (yet_another_translation_reader)
 
-A Chrome extension for reading original and translated texts side-by-side with synchronized scrolling and manual alignment correction.
+A Chrome extension for reading original and translated texts side-by-side with synchronized scrolling and manual alignment correction. 
+Currently (v1.0) only targeting archiveofourown.org work pages.
 
 ## Features (v1.0)
 
@@ -15,17 +16,22 @@ A Chrome extension for reading original and translated texts side-by-side with s
 
 ## Installation
 
-1. Open Chrome and go to `chrome://extensions/`
+1. Open Chrome and go to `chrome://extensions/` (or go to Settings - Extensions)
 2. Enable "Developer mode" (toggle in top right)
 3. Click "Load unpacked"
 4. Select the `yet_another_translation_reader` folder
+
+## Update/Removal
+
+1. In chrome://extensions/, click "Remove" for this app (then refresh to see it's gone)
+2. For update: redo "Load unpacked" and choose the updated `yet_another_translation_reader` folder
 
 ## Usage
 
 ### Basic reading
 1. Click the extension icon in Chrome toolbar → opens setup page in a new tab
-2. Paste an AO3 work URL for Text A (e.g., original)
-3. Paste an AO3 work URL for Text B (e.g., translation)
+2. Paste a URL for Text A (e.g., original)
+3. Paste another URL for Text B (e.g., translation)
    - To-be-tested probably-not-working-yet...: Use the "Current Tab" buttons to grab URLs from open AO3 tabs...to be tested & debugged...
 4. Click "Open Aligning Text"
 5. Read and enjoy!
@@ -64,14 +70,14 @@ Current: 2026/01/31
 ## Known Issues / Limitations
 
 ### Current limitations
-- **AO3 only**: Currently only works with archiveofourown.org work pages
+- **AO3 only**: Currently only targeting archiveofourown.org work pages
 - **Fetches content directly**: Currently fetches URLs via HTTP (server-friendly, but requires works to be publicly accessible). Future versions may read from already-open tabs.
 - **No persistence**: Anchors should lost when you close/refresh the viewer tab.
 
 ## Roadmap / To-Do
 
 - [ ] "Current Tab" not quite working
-- [ ] Minor mismatch sometimes, needs re-anchor...
+- [ ] Minor mismatch sometimes, currently needs re-anchor...
 - [ ] As said above, only tested on AO3 yet...
 - [ ] Non-AO3 site support
 - [ ] PDF/txt input support

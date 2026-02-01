@@ -1,7 +1,6 @@
 # Aligning Text
 
-A Chrome extension for reading original and translated texts side-by-side with synchronized scrolling and manual alignment correction. 
-Currently (v1.0) only targeting archiveofourown.org work pages.
+A Chrome extension for reading original and translated texts side-by-side with synchronized scrolling and manual alignment correction. Still testing. 
 
 ## Features (v1.0)
 

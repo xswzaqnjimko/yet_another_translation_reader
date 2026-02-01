@@ -67,25 +67,19 @@ Current: 2026/01/31
 - Proportional scroll sync
 - Active paragraph highlighting
 
-## Known Issues / Limitations
-
-### Current limitations
-- **AO3 only**: Currently only targeting archiveofourown.org work pages
-- **Fetches content directly**: Currently fetches URLs via HTTP (server-friendly, but requires works to be publicly accessible). Future versions may read from already-open tabs.
-- **No persistence**: Anchors should lost when you close/refresh the viewer tab.
-
 ## Roadmap / To-Do
 
 - [ ] "Current Tab" not quite working
 - [ ] Minor mismatch sometimes, currently needs re-anchor...
-- [ ] As said above, only tested on AO3 yet...
-- [ ] Non-AO3 site support
+- [ ] Sometimes, especially with long paragraphs, shows truncated paragraphs...UI/UX improvement needed
+- [ ] i18n for UI
+- [ ] As said above, currently only tested on AO3 yet...
 - [ ] PDF/txt input support
 - [ ] Etc. ...
 
 ## Server-Friendliness
 
-This extension is designed to be respectful to AO3's servers:
+This extension is designed to be respectful to the servers:
 - No auto-refresh or polling
 - Content is cached in memory after initial fetch
 - Single fetch per URL per session

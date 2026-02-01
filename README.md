@@ -16,6 +16,7 @@ V1.0 for AO3 only. Still testing.
 
 ## Installation
 
+0. As we all know: don't download/open files you don't trust...
 1. Open Chrome and go to `chrome://extensions/` (or go to Settings - Extensions)
 2. Enable "Developer mode" (toggle in top right)
 3. Click "Load unpacked"

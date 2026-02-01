@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aligning Text - Setup</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Aligning Text</h1>
+    <p class="subtitle">Read translations side-by-side</p>
+    
+    <div class="input-group">
+      <label for="url-a">Text A (e.g., Original)</label>
+      <div class="input-row">
+        <input type="url" id="url-a" placeholder="https://archiveofourown.org/works/...">
+        <button id="grab-a" class="grab-btn" title="Use current tab's URL">📋 Current Tab</button>
+      </div>
+    </div>
+    
+    <div class="input-group">
+      <label for="url-b">Text B (e.g., Translation)</label>
+      <div class="input-row">
+        <input type="url" id="url-b" placeholder="https://archiveofourown.org/works/...">
+        <button id="grab-b" class="grab-btn" title="Use current tab's URL">📋 Current Tab</button>
+      </div>
+    </div>
+    
+    <button id="open-viewer" class="primary-btn">Open Aligning Text</button>
+    
+    <p id="error-msg" class="error hidden"></p>
+    
+    <footer>
+      <p>v0.1.1 · AO3 only</p>
+    </footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
